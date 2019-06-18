@@ -6,13 +6,13 @@ data = []
 try:
     import numpy as np
 except Exception as _e:
-    print(_e)
+    #print(_e)
     import pip
     pip.main(['install', 'numpy'])
 try:
     import numpy as np
 except Exception as _e:
-    print(str(_e))
+    #print(str(_e))
     #we could not install or import numpy. So - exiting.
     sys.exit()
 
