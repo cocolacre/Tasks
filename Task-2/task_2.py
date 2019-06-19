@@ -1,2 +1,7 @@
-import sys, os
-import numpy as np
+
+
+
+
+
+x = float(input('X: '))
+y = float(input('Y: '))
