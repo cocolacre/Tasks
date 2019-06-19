@@ -13,7 +13,6 @@ for fl in files:
 sums = []
 for ind, value in enumerate(data[0]):
     sums.append(data[0][ind]+data[1][ind]+data[2][ind]+data[3][ind]+data[4][ind])
-#print(np.array(sums).amax())
 m = max(sums)
 max_intervals = [i for i, j in enumerate(sums) if j == m]
 print(str(m)+ ': ' + str(max_intervals))

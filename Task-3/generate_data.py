@@ -3,7 +3,7 @@
 # 08:00 08:30 ... 16:00
 import random
 N = 5 #cashboxes amount.
-M = 17 #measurements for each cashbox.
+M = 16 #measurements for each cashbox.
 P = 10 #maximum visitors in line
 for i in range(N):
     filename = str(i+1) + '.txt'
