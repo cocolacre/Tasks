@@ -15,4 +15,23 @@ for ind, value in enumerate(data[0]):
     sums.append(data[0][ind]+data[1][ind]+data[2][ind]+data[3][ind]+data[4][ind])
 m = max(sums)
 max_intervals = [i for i, j in enumerate(sums) if j == m]
-print(str(m)+ ': ' + str(max_intervals))
+intervals = [
+"08:30",
+"09:00",
+"09:30",
+"10:00",
+"10:30",
+"11:00",
+"11:30",
+"12:00",
+"12:30",
+"13:00",
+"13:30",
+"14:00",
+"14:30",
+"15:00",
+"15:30",
+"16:00",
+]
+for interval in max_intervals:
+    print(str(m)+ ' customers at ' + str(intervals[interval]))
