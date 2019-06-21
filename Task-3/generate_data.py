@@ -1,6 +1,6 @@
 # lets generate cashbox data.
-# there must be 17 values for each cashbox.
-# 08:00 08:30 ... 16:00
+# there must be 16 values for each cashbox.
+# 08:30 ... 16:00
 import random
 N = 5 #cashboxes amount.
 M = 16 #measurements for each cashbox.
